@@ -76,7 +76,11 @@ The MEA10K dataset was created using a two-stage pipeline:
   </li>
 </ol>
 
-![Pipeline Diagram](path/to/your/pipeline_diagram.png)
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/57526b46-ca9e-41a2-bcd4-2769bcfe7ae9" alt="DREW" width="65%" />
+</p>
+
 
 
 ---
