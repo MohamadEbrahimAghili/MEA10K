@@ -1,7 +1,7 @@
 # Generative Domain Adaptation for Remote Sensing Object Detection
 
+![BN4](https://github.com/user-attachments/assets/a9456989-b568-46b7-82bd-2678154345c9)
 
-![PB](https://github.com/user-attachments/assets/2cf4126d-b04b-4143-8dde-34288bcc1eef)
 
 
 <p align="justify">
