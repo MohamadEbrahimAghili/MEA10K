@@ -1,6 +1,7 @@
 # Generative Domain Adaptation for Remote Sensing Object Detection
 
-![Project Banner](path/to/your/generated_image.png)
+![PB](https://github.com/user-attachments/assets/1ea10e65-7953-40ce-b217-4c4720f79acb)
+
 
 This repository contains the official datasets and information for the paper: **"Generative Domain Adaptation for Object Detection in Remote Sensing Imagery through Automated Feature-Driven Exemplar In-painting."**
 
