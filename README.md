@@ -15,12 +15,12 @@ Our work introduces a novel end-to-end pipeline for generating high-fidelity syn
 ## 📂 The MEA10K Dataset
 
 <p align="justify">
-We provide **the MEA10K dataset** to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
+We provide the MEA10K dataset to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
 </p>
 
 ### **MEA10K: The Complete Synthetic Object Detection Dataset**
 <p align="justify">
-This is the **primary** dataset used for the domain adaptation experiments in our paper. It features photorealistic, GAN-generated backgrounds populated with a diverse set of stochastically placed object exemplars.
+This is the primary dataset used for the domain adaptation experiments in our paper. It features photorealistic, GAN-generated backgrounds populated with a diverse set of stochastically placed object exemplars.
 </p>
 
 *   **Content:** 10,000 synthetic images with object annotations.
@@ -33,18 +33,18 @@ This is the **primary** dataset used for the domain adaptation experiments in ou
 ## 🚀 Pipeline Overview
 
 <p align="justify">
-The MEA10K dataset was created using a two-stage pipeline:
+The MEA10K dataset was created using a two-branch pipeline:
 </p>
 
 <ol>
   <li>
     <p align="justify">
-      <strong>Stage 1: Background Synthesis:</strong> We trained a Generative Adversarial Network (GAN) on the <code>RS-BG-30K</code> dataset, a massive collection of over 30,000 globally-sourced satellite images. This model learned the underlying distribution of real-world overhead imagery and was used to generate photorealistic backgrounds.
+      <strong>Background Synthesis:</strong> We trained a Generative Adversarial Network (GAN) on a massive collection of over 30,000 globally-sourced Google Earth images. This model learned the underlying distribution of real-world overhead imagery and was used to generate photorealistic backgrounds.
     </p>
   </li>
   <li>
     <p align="justify">
-      <strong>Stage 2: Multi-Model Exemplar Selection and In-painting:</strong> We developed an automated method to select a pool of four distinct representative exemplars for each of our 19 classes. Each exemplar was identified by a different 'specialist' vision model (ResNet, ViT, DINOv2, and CLIP) based on its unique feature embeddings. These exemplars were then subjected to extensive stochastic augmentations (rotation, scale, color) and pasted context-agnostically onto the synthetic backgrounds. For each object placed in an image, an exemplar was randomly chosen from its class-specific pool of four, ensuring high visual diversity in the final <code>MEA10K</code> dataset.
+      <strong>Multi-Model Exemplar Selection and In-painting:</strong> We developed an automated method to select a pool of four distinct representative exemplars for each of our 19 classes. Each exemplar was identified by a different 'specialist' vision model (ResNet, ViT, DINOv2, and CLIP) based on its unique feature embeddings. These exemplars were then subjected to stochastic augmentations (rotation, scale, color) and pasted context-agnostically onto the synthetic backgrounds. For each object placed in an image, an exemplar was randomly chosen from its class-specific pool of four, ensuring high visual diversity in the final <code>MEA10K</code> dataset.
     </p>
   </li>
 </ol>
@@ -61,7 +61,7 @@ The MEA10K dataset was created using a two-stage pipeline:
 ## 📄 Citation
 
 <p align="justify">
-If you use the **MEA10K dataset** or find our work helpful in your research, please cite our paper:
+If you use the <strong>MEA10K dataset</strong> or find our work helpful in your research, please cite our paper:
 </p>
 
 ```bibtex
