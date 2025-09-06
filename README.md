@@ -5,7 +5,7 @@
 
 
 <p align="justify">
-This repository contains the official datasets and information for the paper: <strong>"Generative Domain Adaptation for Object Detection in Remote Sensing Imagery through Automated Feature-Driven Exemplar In-painting."</strong>
+This repository contains the official dataset and information for the paper: <strong>"Generative Domain Adaptation for Object Detection in Remote Sensing Imagery through Automated Feature-Driven Exemplar In-painting."</strong>
 </p>
 
 <p align="justify">
@@ -15,16 +15,16 @@ Our work introduces a novel end-to-end pipeline for generating high-fidelity syn
 ## 📂 The MEA10K Dataset Collection
 
 <p align="justify">
-We provide a collection of datasets designed to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
+We provide a dataset designed to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
 </p>
 
-### 1. **MEA10K: The Complete Synthetic Object Detection Dataset**
+### **MEA10K: The Complete Synthetic Object Detection Dataset**
 <p align="justify">
-This is the primary dataset used for the domain adaptation experiments in our paper. It features photorealistic, GAN-generated backgrounds populated with a diverse set of stochastically placed object exemplars.
+This is the dataset used for the domain adaptation experiments in our paper. It features photorealistic, GAN-generated backgrounds populated with a diverse set of stochastically placed object exemplars.
 </p>
 
 *   **Content:** 10,000 synthetic images with object annotations.
-*   **Resolution:** 1024x1024 pixels.
+*   **Dimensions:** 1024x1024 pixels.
 *   **Object Classes:** 19 distinct categories.
 *   **Annotations:** Provided in YOLO (<code>.txt</code>) format. Each annotation file contains one line per object with the format: <code>[class_id] [x_center_norm] [y_center_norm] [width_norm] [height_norm]</code>. A <code>data.yaml</code> file is included for class name mapping.
 *   **Download Link:** [Google Drive](https://drive.google.com/file/d/1LEqF7NZXnAscYfViFy8eZka3P5vEf0_K/view?usp=sharing)
