@@ -12,7 +12,7 @@ This repository contains the official dataset and information for the paper: <st
 Our work introduces a novel end-to-end pipeline for generating high-fidelity synthetic data to address the common challenges of data scarcity, geographic bias, and limited background diversity in remote sensing object detection. By leveraging a Generative Adversarial Network (GAN) and an intelligent in-painting strategy, we create a powerful pre-training corpus that significantly enhances the generalization and performance of modern object detection models.
 </p>
 
-## 📂 The MEA10K Dataset Collection
+## 📂 The MEA10K Dataset
 
 <p align="justify">
 We provide a dataset designed to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
