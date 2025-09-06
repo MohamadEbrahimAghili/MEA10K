@@ -15,12 +15,12 @@ Our work introduces a novel end-to-end pipeline for generating high-fidelity syn
 ## 📂 The MEA10K Dataset
 
 <p align="justify">
-We provide a dataset designed to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
+We provide **the MEA10K dataset** to facilitate new research in generative modeling, domain adaptation, and robust object detection in the remote sensing domain.
 </p>
 
 ### **MEA10K: The Complete Synthetic Object Detection Dataset**
 <p align="justify">
-This is the dataset used for the domain adaptation experiments in our paper. It features photorealistic, GAN-generated backgrounds populated with a diverse set of stochastically placed object exemplars.
+This is the **primary** dataset used for the domain adaptation experiments in our paper. It features photorealistic, GAN-generated backgrounds populated with a diverse set of stochastically placed object exemplars.
 </p>
 
 *   **Content:** 10,000 synthetic images with object annotations.
@@ -39,7 +39,7 @@ The MEA10K dataset was created using a two-stage pipeline:
 <ol>
   <li>
     <p align="justify">
-      <strong>Stage 1: Background Synthesis:</strong> We trained a Generative Adversarial Network (GAN) on the <code>RS-BG-30K</code> dataset, a massive collection of globally-sourced satellite images. This model learned the underlying distribution of real-world overhead imagery and was used to generate the <code>SYN-BG-10K</code> dataset.
+      <strong>Stage 1: Background Synthesis:</strong> We trained a Generative Adversarial Network (GAN) on the <code>RS-BG-30K</code> dataset, a massive collection of over 30,000 globally-sourced satellite images. This model learned the underlying distribution of real-world overhead imagery and was used to generate photorealistic backgrounds.
     </p>
   </li>
   <li>
@@ -61,7 +61,7 @@ The MEA10K dataset was created using a two-stage pipeline:
 ## 📄 Citation
 
 <p align="justify">
-If you use our datasets or find our work helpful in your research, please cite our paper:
+If you use the **MEA10K dataset** or find our work helpful in your research, please cite our paper:
 </p>
 
 ```bibtex
